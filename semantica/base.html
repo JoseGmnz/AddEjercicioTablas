@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 8 de Octubre</title>
+</head>
+<body>
+    <header id="cabecera">
+        <h1>INTRODUCIÓN A LAS BASES DE DATOS</h1>
+            <p>Pincha aquí para ir al capítulo deseado:</p>
+                <nav>
+                    <ul>
+                        <li><a href="#C1">Concepto y Tipos</a></li>
+                        <li><a href="#C2">Estructura de Datos</a></li>
+                        <li><a href="#C3">Relaciones</a></li>
+                        <li><a href="#C4">Recursos de Interés</a></li>
+                    </ul>
+                </nav>
+    </header>
+    <main>
+        <section id="C1">
+            <h2> 1. Concepto y Tipos de Base de Datos</h2>
+            <article>
+                <h3>Articulo 1: Bases de Datos Relacionales(RDBMS)</h3>
+                    <p>Las bases de datos relacionales organizan la información de manera estructurada utilizando tablas. Cada tabla se compone de filas (que representan los registros individuales) y columnas (que definen los atributos de esos registros). Ejemplos muy comunes de este tipo de sistemas son MySQL y PostgreSQL.</p>
+            </article>
+            <article>   
+                <h3>Articulo 2: Bases de Datos No Relacionales (NoSQL)</h3>
+                    <p>Las bases de datos NoSQL ofrecen gran flexibilidad al permitir el almacenamiento de datos no estructurados o semiestructurados. En lugar de utilizar las tablas tradicionales, organizan la información mediante formatos como documentos, pares clave-valor o grafos. Un ejemplo muy destacado y común de este modelo es MongoDB.</p>
+            </article>
+        </section>
+        
+        <section id="C2">
+            <h2> 2. Estructura de una Base de Datos Relacional</h2>
+            <article>
+                <h3>Componente fundamentales</h3>
+                <p>Para definir la estructura dentro de un modelo relacional se emplean los siguientes elementos:</p>
+                <ul>
+                    <li><b>Tablas:</b>Estructuras donde se organizan los datos.</li>
+                    <li><b>Campos (Atributos):</b>Columnas que definen la tipología de información.</li>
+                    <li><b>Registros (Tuplas):</b>Filas que contienen cada instancia concreta de datos.</li>
+                    <li><b>Claves primarias (Primary Keys):</b> Identificadores únicos para cada registro en una tabla.</li>
+                </ul>
+            </article>
+        </section>
+        <section id="C3">
+            <h2> 3. Relaciones entre Tablas</h2>
+            <article>
+                <h3>Tipos de Relaciones</h3>
+                <p>En un modelo relacional, las relaciones entre tablas se establecen mediante claves foráneas (foreign keys). Los tipos más comunes de relaciones son:</p>
+                <ul>
+                    <li><b>Uno a Uno (1:1):</b> Cada registro en la primera tabla se relaciona con un único registro en la segunda tabla.</li>
+                    <li><b>Uno a Muchos (1:N):</b> Un registro en la primera tabla puede estar relacionado con múltiples registros en la segunda tabla.</li>
+                    <li><b>Muchos a Muchos (N:M):</b> Múltiples registros en la primera tabla pueden estar relacionados con múltiples registros en la segunda tabla, generalmente gestionado mediante una tabla intermedia.</li>
+                </ul>
+            </article>
+        </section>
+       <aside id="C4">
+            <h2>Recursos de Interés</h2>
+            <article>
+                <h3>Glosario de términos</h3>
+                <p>Aqui vamos a ver definiciones breves para los siguientes Términos:</p>
+                <ul>
+                    <li><b>SQL:</b> Lenguaje de consulta estructurada utilizado para gestionar bases de datos relacionales.</li>
+                    <li><b>SGDB:</b> Sistema de Gestión de Bases de Datos.</li>
+                    <li><b>Normalización:</b> Proceso de organizar los datos en una base de datos para reducir la redundancia y mejorar la integridad.</li>
+                    <li><b>Clave Foránea:</b> Campo que vincula dos tablas en una relación.</li>
+                </ul>
+                <h3>Listado de enlaces externos recomendados:</h3>
+                <ul>
+                    <li><a href="https://www.w3schools.com/sql/" target="_blank">W3Schools SQL Tutorial</a></li>
+                    <li><a href="https://www.mysql.com/" target="_blank">MySQL Official Website</a></li>
+                    <li><a href="https://www.postgresql.org/" target="_blank">PostgreSQL Official Website</a></li>
+                </ul>
+            </article>
+       </aside>
+     
+    </main>
+
+    <footer>
+        <p>© 2024 Introducción a las Bases de Datos. Todos los derechos reservados.</p>
+        <p>José Giménez López, 1º ASIR</p>
+        <h3>Enlace para volver a la cabecera:</h3>
+        <p><a href="#cabecera">Volver a la cabecera</a></p>
+    </footer>
+</body>
+</html>
