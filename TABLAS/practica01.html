@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica Tablas</title>
+     <style>
+        table, td, th, tr{
+            border : 1px solid green;
+            margin: 20px;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Empezamos con nuestro práctica:</h1>
+    <h2>Tabla 1</h2>
+    <p>En esta tabla vamos a hacer una tabla de 4 columnas y 2 filas, y en la celda de la izquierda del todo en la segunda fila, vamos a anidar una tabla de 2x2:</p>
+    <table>
+        <tr>    
+           <th>Columna 1</th>
+           <th>Columna 2</th>
+           <th>Columna 3</th>
+           <th>Columna 4</th> 
+        </tr>
+        <tr>
+            <td>
+                <table>
+                    <tr>
+                        <th>Columna 1</th>
+                        <th>Columna 2</th>
+                    </tr>
+                    <tr>
+                        <td>Celda 1</td>
+                        <td>Celda 2</td>
+                    </tr>
+                </table>
+            </td>
+            <td>Celda 2</td>
+            <td>Celda 3</td>
+            <td>Celda 4</td>
+        </tr>
+    </table>
+    <h2>Tabla 2</h2>
+    <p>En esta tabla vamos a hacer una tabla simple de tres columnas y dos filas:</p>
+    <table>
+        <tr>
+            <th>Columna 1</th>
+            <th>Columna 2</th>
+            <th>Columna 3</th>
+        </tr>
+        <tr>
+            <td>Celda 1</td>
+            <td>Celda 2</td>
+            <td>Celda 3</td>
+        </tr>
+    </table>
+    <h2>Tabla 3</h2>
+    <p>En esta tabla vamos a hacer una tabla simple de 4x4</p>
+    <table>
+        <tr>
+            <th>Columna 1</th>
+            <th>Columna 2</th>
+            <th>Columna 3</th>
+            <th>Columna 4</th>
+        </tr>
+        <tr>
+            <td>Celda 1</td>
+            <td>Celda 2</td>
+            <td>Celda 3</td>
+            <td>Celda 4</td>
+        </tr>
+        <tr>
+            <td>Celda 5</td>
+            <td>Celda 6</td>
+            <td>Celda 7</td>
+            <td>Celda 8</td>
+        </tr>
+        <tr>
+            <td>Celda 9</td>
+            <td>Celda 10</td>
+            <td>Celda 11</td>
+            <td>Celda 12</td>
+        </tr>
+    </table>
+    <h2>Tabla 4</h2>
+    <p> En esta tabla vamos a hacer una tabla de 4 columnas y 4 filas, y en la fila 2 de la columna tres vamos a hacer una tabla dentro de esa celda de 2 columnas y 4 filas</p>
+    <table>
+        <tr>
+            <th>Columna 1</th>
+            <th>Columna 2</th>
+            <th>Columna 3</th>
+            <th>Columna 4</th>
+        </tr>
+        <tr>
+            <td>Celda 1</td>
+            <td>Celda 2</td>
+            <td>
+                <table>
+                    <tr>
+                        <th>Columna 1</th>
+                        <th>Columna 2</th>
+                    </tr>
+                    <tr>
+                        <td>Celda 1</td>
+                        <td>Celda 2</td>
+                    </tr>
+                    <tr>
+                        <td>Celda 3</td>
+                        <td>Celda 4</td>
+                    </tr>
+                    <tr>
+                        <td>Celda 5</td>
+                        <td>Celda 6</td>
+                    </tr>
+                </table>
+            </td>
+            <td>Celda 4</td>
+        </tr>
+        <tr>
+            <td>Celda 5</td>
+            <td>Celda 6</td>
+            <td>Celda 7</td>
+            <td>Celda 8</td>
+        </tr>
+        <tr>
+            <td>Celda 9</td>
+            <td>Celda 10</td>
+            <td>Celda 11</td>
+            <td>Celda 12</td>
+        </tr>
+    </table>
+    <h2>Tabla 5</h2>
+    <p>En esta tabl vamos a hacer una tabla con 4 columnas y 2 filas, y en la celda de la primera columna y la primera fila,vamos a hacer dentro otra tabla de 2x4</p>
+    <table>
+        <tr>
+            <td>
+                <table>
+                    <tr>
+                        <th>Columna 1</th>
+                        <th>Columna 2</th>
+                    </tr>
+                    <tr>
+                        <td>Celda 1</td>
+                        <td>Celda 2</td>
+                    </tr>
+                    <tr>
+                        <td>Celda 3</td>
+                        <td>Celda 4</td>
+                    </tr>
+                    <tr>
+                        <td>Celda 5</td>
+                        <td>Celda 6</td>
+                    </tr>
+                </table>
+            </td>
+            <td>Celda 2</td>
+            <td>Celda 3</td>
+            <td>Celda 4</td>
+        </tr>
+        <tr>
+            <td>Celda 5</td>
+            <td>Celda 6</td>
+            <td>Celda 7</td>
+            <td>Celda 8</td>
+        </tr>
+    </table>
+    <h2>Tabla 6</h2>
+    <p> En esta tabla tenemos que hacer uso de colspan</p>
+    <table>
+        <tr>
+            <td>
+                <table aria-colspan="2">
+                    <tr>
+                        <th>Columna 1</th>
+                        <th>Columna 2</th>
+                    </tr>
+                    <tr>
+                        <td>Celda 1</td>
+                        <td>Celda 2</td>
+                    </tr>
+                    <tr>
+                        <td>Celda 3</td>
+                        <td>Celda 4</td>
+                    </tr>
+                </table>
+            </td>
+            <td>Celda 2</td>
+        </tr>
+        <tr>
+            <td >Celda 3</td>
+            <td>Celda 4</td>
+        </tr>
+        <tr>
+            <td>Celda 5</td>
+            <td>Celda 6</td>
+        </tr>
+        <tr>
+            <td>Celda 7</td>
+            <td>Celda 8</td>
+        </tr>
+    </table>
+    <h2>Tabla 7</h2>
+    <p>En esta tabla volvemos a lo simple y vamos a hacer una de 3x3</p>
+    <table>
+        <tr>
+            <th>Columna 1</th>
+            <th>Columna 2</th>
+            <th>Columna 3</th>
+        </tr>
+        <tr>
+            <td>Celda 1</td>
+            <td>Celda 2</td>
+            <td>Celda 3</td>
+        </tr>
+        <tr>
+            <td>Celda 4</td>
+            <td>Celda 5</td>
+            <td>Celda 6</td>
+        </tr>
+       
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis primers Tablas</title>
+    <style>
+        table, td, th, tr{
+            border : 1px solid red;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mis primeras Tablas</h1>
+    <table style="border: 1px solid red;">
+        <tr>
+            <th>Posicion</th>
+            <th>Nombre</th>
+            <th>Nota</th>
+        </tr>
+        <tr>
+            <td rowspan="2">1º</td>
+            <td>Laura Gómez</td>
+            <td>9.2</td>
+        </tr>
+        <tr>
+            <td>Iván Martínez</td>
+            <td>9.2</td>
+        </tr>
+    </table> <br>
+    <h2>Ahora vamos a hacer una tabla nosotros mismos a modo de ejercicio:</h2>
+   
+    <table style="border: 2px solid red;">
+        <tr>
+            <th>e</th>
+            <th>e</th>
+            <th>e</th>
+        </tr>
+        <tr>
+            <td colspan="2">Datos</td>
+            <td>45</td>
+        </tr>
+        <tr>
+            <td>Nombre</td>
+            <td>Edad</td>
+            <td>Ciudad</td>
+
+        </tr>
+    </table>
+
+
+    <h2>Ahora vamos a hacer la tercera tabla, más difícil:</h2>
+
+    <table style="border: 3px solid red;">
+          
+        <tr>
+            <td>1</td>
+            <td colspan="2">2</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td rowspan="2">6</td>
+            <td>7</td>
+            <td>8</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>10</td>
+        </tr>
+    </table>
+
+    <h2>Ejercicio Anidación</h2>
+    <p>En este ejercicio vamos a crear una tabla de 2x2, y en el espacio de arriba a la derecha de esta tabla vamos a anidar una dentro que sea de 3x3</p>
+
+    <table style="border: 2px solid red;">
+        <tr>
+           <td>1</td>
+           <td>
+                <table style="border:2px solid greenyellow;">
+                    <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>5</td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>8</td>
+                        <td>9</td>
+                    </tr>
+                </table>
+           </td>
+        </tr>
+           <tr>
+            <td>3</td>
+            <td>4</td>
+           </tr>
+       
+    </table>
+
+</body>
+</html>
