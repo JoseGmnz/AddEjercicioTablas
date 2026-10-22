@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica formularios</title>
+</head>
+<body>
+    <h1>Práctica formularios</h1>
+    <h2>Formulario 1:</h2>
+    <p>Generar el formulario siguiente de acuerdo a los siguientes requisitos:<br/>
+● Hay un control para elegir el color.<br/>
+● Hay un textarea que mide 5 filas y 53 columnas que lleva dentro el texto «Por
+favor, escriba aquí»<br/>
+● Hay una lista desplegable con el name «lenguaje» y con las siguientes opciones:
+opción «Java» con el value java, opción «Python» con el value python, opción
+«HTML» con el value html, opción «Visual Basic» con el value visual_basic.<br/>
+● Contiene los siguientes checkboxes:checkbox con el name «ciclo» , value
+«cicloasir» y el texto «ASIR», checkbox con el name «ciclo» , value «ciclodam»
+y el texto «DAM», checkbox con el name «ciclo» , value «ciclodaw» y el texto
+«DAW».<br/>
+● Hay un control para indicar la fecha.<br/>
+● Hay un control para elegir ficheros.<br/>
+● Hay una lista desplegable múltiple con el name «ciclo» y con las siguientes
+opciones: opción «SMIR» con el value smir, opción «ASIR» con el value asir,
+opción «DAM» con el value dam, opción «DAW» con el value daw</p>
+
+<form action="#" method="post">
+
+  <label for="color">Color:</label>
+  <input type="color" id="color" name="color">
+
+  <textarea name="comentarios" rows="5" cols="53">Por favor, escriba aquí</textarea>
+
+  <label for="lenguaje">Lenguaje:</label>
+  <select id="lenguaje" name="lenguaje">
+    <option value="java">Java</option>
+    <option value="python">Python</option>
+    <option value="html">HTML</option>
+    <option value="visual_basic">Visual Basic</option>
+  </select>
+
+  <input type="checkbox" id="asir" name="ciclo" value="cicloasir">
+  <label for="asir">ASIR</label>
+  <input type="checkbox" id="dam" name="ciclo" value="ciclodam">
+  <label for="dam">DAM</label>
+  <input type="checkbox" id="daw" name="ciclo" value="ciclodaw">
+  <label for="daw">DAW</label>
+
+  <label for="fecha">Fecha:</label>
+  <input type="date" id="fecha" name="fecha">
+
+  <label for="fichero">Fichero:</label>
+  <input type="file" id="fichero" name="fichero">
+
+  <label for="ciclos">Ciclos:</label>
+  <select id="ciclos" name="ciclo" multiple>
+    <option value="smir">SMIR</option>
+    <option value="asir">ASIR</option>
+    <option value="dam">DAM</option>
+    <option value="daw">DAW</option>
+  </select>
+
+</form>
+<h2>Formulario 2:</h2>
+<p>Generar el formulario siguiente de acuerdo a los siguientes requisitos:<br/>
+● Contiene los siguientes radiobuttons:radio con el name «asignatura» , value
+«asignaturalengua» y el texto «Lengua», radio con el name «asignatura» ,
+value «asignaturamatematicas» y el texto «Matemáticas», radio con el name
+«asignatura» , value «asignaturahistoria» y el texto «Historia», radio con el
+name «asignatura» , value «asignaturageografia» y el texto «Geografía».<br/>
+● Contiene los siguientes checkboxes:checkbox con el name «editor» , value
+«editornotepad» y el texto «Notepad», checkbox con el name «editor» , value
+«editoremacs» y el texto «Emacs», checkbox con el name «editor» , value
+«editorotro» y el texto «Otro».<br/>
+● Hay un textarea que mide 5 filas y 59 columnas que lleva dentro el texto
+«Escriba aquí, por favor»<br/>
+● Hay una lista desplegable con el name «procesador» y con las siguientes
+opciones: opción «AMD» con el value amd, opción «Intel i5» con el value
+intel_i5, opción «Intel i7» con el value intel_i7.</p>
+
+<form action="#" method="post">
+
+  <input type="radio" id="lengua" name="asignatura" value="asignaturalengua">
+  <label for="lengua">Lengua</label>
+  <input type="radio" id="matematicas" name="asignatura" value="asignaturamatematicas">
+  <label for="matematicas">Matemáticas</label>
+  <input type="radio" id="historia" name="asignatura" value="asignaturahistoria">
+  <label for="historia">Historia</label>
+  <input type="radio" id="geografia" name="asignatura" value="asignaturageografia">
+  <label for="geografia">Geografía</label>
+
+  <input type="checkbox" id="notepad" name="editor" value="editornotepad">
+  <label for="notepad">Notepad</label>
+  <input type="checkbox" id="emacs" name="editor" value="editoremacs">
+  <label for="emacs">Emacs</label>
+  <input type="checkbox" id="otro" name="editor" value="editorotro">
+  <label for="otro">Otro</label>
+
+  <textarea name="comentarios" rows="5" cols="59">Escriba aquí, por favor</textarea>
+
+  <label for="procesador">Procesador:</label>
+  <select id="procesador" name="procesador">
+    <option value="amd">AMD</option>
+    <option value="intel_i5">Intel i5</option>
+    <option value="intel_i7">Intel i7</option>
+  </select>
+
+</form>
+<h2>Formulario 3:</h2>
+<p>Generar el formulario siguiente de acuerdo a los siguientes requisitos
+● Contiene los siguientes radiobuttons:radio con el name «asignatura» , value
+«asignaturageografia» y el texto «Geografía», radio con el name «asignatura» ,
+value «asignaturalengua» y el texto «Lengua», radio con el name «asignatura»
+, value «asignaturamatematicas» y el texto «Matemáticas», radio con el name
+«asignatura» , value «asignaturahistoria» y el texto «Historia».
+● Hay un control para indicar la hora.
+● Contiene los siguientes checkboxes:checkbox con el name «idioma» , value
+«idiomaespanol» y el texto «Español», checkbox con el name «idioma» , value
+«idiomaingles» y el texto «Inglés», checkbox con el name «idioma» , value
+«idiomaaleman» y el texto «Alemán», checkbox con el name «idioma» , value
+«idiomafrances» y el texto «Francés».
+● Hay los siguientes cuadros de texto:cuadro de texto con el texto «Nombre» y el
+name nombre, cuadro de texto con el texto «Apellidos» y el name apellidos</p>
+
+<form action="#" method="post">
+
+  <input type="radio" id="geografia" name="asignatura" value="asignaturageografia">
+  <label for="geografia">Geografía</label>
+  <input type="radio" id="lengua" name="asignatura" value="asignaturalengua">
+  <label for="lengua">Lengua</label>
+  <input type="radio" id="matematicas" name="asignatura" value="asignaturamatematicas">
+  <label for="matematicas">Matemáticas</label>
+  <input type="radio" id="historia" name="asignatura" value="asignaturahistoria">
+  <label for="historia">Historia</label>
+
+  <label for="hora">Hora:</label>
+  <input type="time" id="hora" name="hora">
+
+  <input type="checkbox" id="espanol" name="idioma" value="idiomaespanol">
+  <label for="espanol">Español</label>
+  <input type="checkbox" id="ingles" name="idioma" value="idiomaingles">
+  <label for="ingles">Inglés</label>
+  <input type="checkbox" id="aleman" name="idioma" value="idiomaaleman">
+  <label for="aleman">Alemán</label>
+  <input type="checkbox" id="frances" name="idioma" value="idiomafrances">
+  <label for="frances">Francés</label>
+
+  <label for="nombre">Nombre</label>
+  <input type="text" id="nombre" name="nombre">
+
+  <label for="apellidos">Apellidos</label>
+  <input type="text" id="apellidos" name="apellidos">
+
+</form>
+
+
+
+</body>
+</html>
